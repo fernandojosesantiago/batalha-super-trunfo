@@ -96,13 +96,13 @@ int main() {
 
     // Comparações
     printf("Comparação de Cartas:\n");
-    printf("População: %s\n", (populacao1 > populacao2) ? "Sim" : "Não");
-    printf("Área: %s\n", (area1 > area2) ? "Sim" : "Não");
-    printf("PIB: %s\n", (pib1 > pib2) ? "Sim" : "Não");
-    printf("Pontos Turísticos: %s\n", (pontosTuristicos1 > pontosTuristicos2) ? "Sim" : "Não");
-    printf("Densidade Populacional: %s\n", (densidade1 < densidade2) ? "Sim" : "Não");
-    printf("PIB per Capita: %s\n", (pibPerCapita1 > pibPerCapita2) ? "Sim" : "Não");
-    printf("Super Poder: %s\n", (superPoder1 > superPoder2) ? "Sim" : "Não");
+    printf("População: %s\n", (populacao1 > populacao2) ? "1" : "0");
+    printf("Área: %s\n", (area1 > area2) ? "1" : "0");
+    printf("PIB: %s\n", (pib1 > pib2) ? "1" : "0");
+    printf("Pontos Turísticos: %s\n", (pontosTuristicos1 > pontosTuristicos2) ? "1" : "0");
+    printf("Densidade Populacional: %s\n", (densidade1 < densidade2) ? "1" : "0");
+    printf("PIB per Capita: %s\n", (pibPerCapita1 > pibPerCapita2) ? "1" : "0");
+    printf("Super Poder: %s\n", (superPoder1 > superPoder2) ? "1" : "0");
     printf("\n");
 
     return 0;
